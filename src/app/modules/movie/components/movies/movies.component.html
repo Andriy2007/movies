@@ -1,0 +1,17 @@
+<div class="page">
+  <button class="butt" (click)="left()">Назад</button>
+  <button class="butt" (click)="right()">Вперед</button>
+</div>
+<div class="movies">
+  <div class="container" *ngFor="let movie of movies">
+    <img src="https://image.tmdb.org/t/p/w200/{{movie?.poster_path}}">
+    <a [routerLink]="[movie.id]">
+      <p>{{movie?.title}}</p>
+      <div class="raiting">Raiting: {{movie.vote_average}}</div>
+    </a>
+  </div>
+</div>
+<div class="page">
+  <button class="butt" (click)="left()">Назад</button>
+  <button class="butt" (click)="right()">Вперед</button>
+</div>

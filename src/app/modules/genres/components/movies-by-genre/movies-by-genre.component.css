@@ -1,0 +1,29 @@
+img {
+  height: 350px;
+}
+
+.container {
+  max-width: 200px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px;
+}
+
+.pag {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.wrap {
+  width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+}
+.butt {
+  cursor: pointer
+}

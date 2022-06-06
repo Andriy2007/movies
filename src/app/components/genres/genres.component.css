@@ -1,0 +1,10 @@
+.genres{
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  justify-content: center;
+  margin-left: 50px;
+}
+.title-genres {
+  margin-left: 100px;
+}
